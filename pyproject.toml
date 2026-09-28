@@ -1,0 +1,22 @@
+[project]
+name = "bot-detection"
+version = "0.1.0"
+description = "Avito bot detection"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy==2.2.6",
+    "pandas==2.2.2",
+    "scikit-learn==1.8.0",
+    "catboost==1.2.8",
+    "lightgbm==4.6.0",
+    "matplotlib==3.10.8",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter",
+    "nbconvert",
+]
+
+[tool.uv]
+package = false
